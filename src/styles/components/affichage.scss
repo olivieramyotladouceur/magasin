@@ -1,0 +1,42 @@
+.affichage {
+    h1 {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .sort-container {
+     
+      padding: 15px;
+      border-radius: 15px;
+      background: $color-3;
+      color: $color-1;
+      box-shadow: 0 2px 2px rgba(51, 51, 51, 0.3);
+      margin-bottom: 20px;
+      text-align: center;
+
+        input[type="radio"] {
+          
+          margin-left: 20px;
+          margin-right: 5px;
+        }
+    }
+
+    .cancel {
+      margin: 20px auto 30px;
+      width: 100%;
+   
+      h5 {
+        border: 1px $color-1 solid;
+        text-align: center;
+        width: 180px;
+        margin: 0 auto;
+        border-radius: 10px;
+        transition: 0.3s;
+        cursor: pointer;
+   
+        &:hover {
+          background: $color-1;
+          border-color: $color-1;
+        }
+      }
+    }
+}
